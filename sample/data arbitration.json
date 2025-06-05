@@ -1,0 +1,81 @@
+{
+    "pt": "FOOD_GLITTER_SPRINKLE",
+    "org": "US",
+    "link": "<a href=\"https://www.amazon.com/s?k=christmas sprinkles\" target=\"_blank\">https://www.amazon.com/s?k=christmas sprinkles</a>",
+    "week": "wk2",
+    "row_id": "956023fcf660e182c80709cddc46981185d48ddcb00fabc1b73e165b613e5d40",
+    "pickers": "[Frosting, Icing & Decorations, Dessert Sprinkles, Edible Cupcake Toppers, Clays & Doughs, Pottery & Modeling Clays]",
+    "keywords": "christmas sprinkles",
+    "platform": "desktop",
+    "subbatch": "wk1",
+    "refinement": "Departments",
+    "claude_reason": "From a relevance perspective, three pickers are valid for food sprinkles: 'Frosting, Icing & Decorations' as a broader category, 'Dessert Sprinkles' as the direct product category, and 'Edible Cupcake Toppers' as a related food decoration. However, 'Clays & Doughs' and 'Pottery & Modeling Clays' are completely irrelevant as they are craft/art supplies, not edible food decorations. From a preference awareness perspective, the query doesn't contain any low-tolerance preferences (size, quantity, age, gender, species, body part). The 'Christmas' theme is a flexible preference (seasonal), not a low-tolerance one, making all pickers preference-aware.",
+    "annotator_1_id": "65090",
+    "annotator_2_id": "65188",
+    "part_1_task_id": "173573327",
+    "welo_unique_id": "5cb4233e-2b73-4298-8ad3-8fc909c105d0",
+    "claude_relevant": "no",
+    "multipt_pickers": "",
+    "pickers_choices": [
+        {
+            "value": "Frosting"
+        },
+        {
+            "value": "Icing & Decorations"
+        },
+        {
+            "value": "Dessert Sprinkles"
+        },
+        {
+            "value": "Edible Cupcake Toppers"
+        },
+        {
+            "value": "Clays & Doughs"
+        },
+        {
+            "value": "Pottery & Modeling Clays"
+        },
+        {
+            "value": "None"
+        }
+    ],
+    "refinement_choices": [
+        {
+            "value": "Departments"
+        },
+        {
+            "value": "None"
+        }
+    ],
+    "claude_relevant_rib": "",
+    "rater_1_q1_response": "Agree: claude_reason is correct",
+    "rater_1_q2_response": "",
+    "rater_1_q3_response": "Claude selected no, but the correct answer is yes",
+    "rater_1_q4_response": "Agree",
+    "rater_1_q6_response": "Agree: Claude selected the correct label for the given query, refinement, and pickers",
+    "rater_1_q7_response": "Agree",
+    "rater_2_q1_response": "Agree: claude_reason is correct",
+    "rater_2_q2_response": "",
+    "rater_2_q3_response": "Agree: Claude selected the correct label for the given query, refinement, and pickers",
+    "rater_2_q4_response": "Agree",
+    "rater_2_q6_response": "Agree: Claude selected the correct label for the given query, refinement, and pickers",
+    "rater_2_q7_response": "Agree",
+    "claude_preference_aware": "yes",
+    "claude_relevant_defects": "['Clays & Doughs', 'Pottery & Modeling Clays']",
+    "claude_irrelevant_pickers": "['Clays & Doughs', 'Pottery & Modeling Clays']",
+    "claude_preference_aware_rib": "",
+    "claude_relevant_rib_defects": "",
+    "rater_1_q5_pickers_response": "",
+    "rater_1_q8_pickers_response": "",
+    "rater_2_q5_pickers_response": "",
+    "rater_2_q8_pickers_response": "",
+    "claude_irrelevant_refinement": "",
+    "rater_1_q5_refinement_response": "",
+    "rater_1_q8_refinement_response": "",
+    "rater_2_q5_refinement_response": "",
+    "rater_2_q8_refinement_response": "",
+    "claude_preference_aware_defects": "[]",
+    "claude_preference_aware_rib_defects": "",
+    "claude_preference_violating_pickers": "[]",
+    "claude_preference_violating_refinement": ""
+}

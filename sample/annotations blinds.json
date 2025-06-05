@@ -1,0 +1,72 @@
+[
+    {
+        "id": 60257947,
+        "result": [
+            {
+                "id": "9B9otcLEte",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Rater 2"
+                    ]
+                },
+                "origin": "manual",
+                "to_name": "claude_relevant",
+                "from_name": "qa"
+            },
+            {
+                "id": "iWoZ4CRpSa",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Rater 2"
+                    ]
+                },
+                "origin": "manual",
+                "to_name": "claude_relevant",
+                "from_name": "qb"
+            },
+            {
+                "id": "0pi_gC8yiN",
+                "type": "choices",
+                "value": {
+                    "choices": [
+                        "Rater 2"
+                    ]
+                },
+                "origin": "manual",
+                "to_name": "claude_preference_aware",
+                "from_name": "qc"
+            }
+        ],
+        "created_username": "Rater 61959 amirbhatmanzoor@gmail.com, 61959",
+        "created_ago": "11 hours, 47 minutes",
+        "completed_by": {
+            "id": 61959,
+            "first_name": "Rater",
+            "last_name": "61959",
+            "avatar": null,
+            "email": "amirbhatmanzoor@gmail.com",
+            "initials": "R6"
+        },
+        "last_annotation_history": 65613112,
+        "reviews": [],
+        "was_cancelled": false,
+        "ground_truth": false,
+        "created_at": "2025-05-03T15:14:18.482628Z",
+        "updated_at": "2025-05-03T15:14:18.482639Z",
+        "draft_created_at": "2025-05-03T15:14:12.842245Z",
+        "lead_time": 16.191,
+        "import_id": null,
+        "last_action": "submitted",
+        "bulk_created": false,
+        "task": 175291804,
+        "project": 143484,
+        "updated_by": 61959,
+        "parent_prediction": null,
+        "parent_annotation": null,
+        "last_created_by": 61959,
+        "comment_count": 0,
+        "unresolved_comment_count": 0
+    }
+]

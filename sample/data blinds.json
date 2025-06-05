@@ -1,0 +1,64 @@
+{
+    "pt": "FOOD_STORAGE_CONTAINER",
+    "org": "US",
+    "link": "<a href=\"https://www.amazon.com/s?k=food hugger\" target=\"_blank\">https://www.amazon.com/s?k=food hugger</a>",
+    "week": "wk2",
+    "row_id": "9d2a3985f80b3201cb255569592d8b05ddaec5013a70edf1018093ba0560dba7",
+    "pickers": "[Food Containers, Food Container Sets, Individual Household Food Containers, Serveware, Butter Dishes, Cheese Makers, Kitchen Cookware, Cookware & Bakeware Lids]",
+    "keywords": "food hugger",
+    "platform": "desktop",
+    "subbatch": "wk1",
+    "refinement": "Departments",
+    "claude_reason": "From a relevance perspective, most pickers are valid as they relate to food storage solutions: 'Food Containers', 'Food Container Sets', and 'Individual Household Food Containers' are directly relevant categories; 'Serveware', 'Butter Dishes', and 'Cookware & Bakeware Lids' are related to food storage/covering; and 'Kitchen Cookware' is a broader relevant category. However, 'Cheese Makers' is irrelevant as it's for cheese production, not food storage. From a preference awareness perspective, the query doesn't specify any low-tolerance preferences (size, quantity, age, gender, species, body part), making all pickers preference-aware.",
+    "welo_unique_id": "a25bd803-9880-4996-8bdb-98a06d3c3fce",
+    "claude_relevant": "no",
+    "multipt_pickers": "",
+    "pickers_choices": [
+        {
+            "value": "Food Containers"
+        },
+        {
+            "value": "Food Container Sets"
+        },
+        {
+            "value": "Individual Household Food Containers"
+        },
+        {
+            "value": "Serveware"
+        },
+        {
+            "value": "Butter Dishes"
+        },
+        {
+            "value": "Cheese Makers"
+        },
+        {
+            "value": "Kitchen Cookware"
+        },
+        {
+            "value": "Cookware & Bakeware Lids"
+        },
+        {
+            "value": "None"
+        }
+    ],
+    "refinement_choices": [
+        {
+            "value": "Departments"
+        },
+        {
+            "value": "None"
+        }
+    ],
+    "claude_relevant_rib": "",
+    "claude_preference_aware": "yes",
+    "claude_relevant_defects": "['Cheese Makers']",
+    "claude_irrelevant_pickers": "['Cheese Makers']",
+    "claude_preference_aware_rib": "",
+    "claude_relevant_rib_defects": "",
+    "claude_irrelevant_refinement": "",
+    "claude_preference_aware_defects": "[]",
+    "claude_preference_aware_rib_defects": "",
+    "claude_preference_violating_pickers": "[]",
+    "claude_preference_violating_refinement": ""
+}
