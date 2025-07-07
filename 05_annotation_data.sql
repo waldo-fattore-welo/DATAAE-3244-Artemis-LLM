@@ -36,7 +36,8 @@ where t.project_id in (
     select p.id
     from labelstudio.projects p
     where p.workspace in (80322) --Artemis - LLM Training
-        -- and p.id in (143483, 143484) --(Batch Pilot - wk1 v2) US - Blinds/Arbitration
+        and p.id in (161719, 161720) --LLM (June25 - Batch 1 v2) en-US - Blinds/Arbitration
     )
     --and (t.id = 173577729 or t.data.part_1_task_id::INT = 173577729) --matching pair 2+1
+    --and welo_unique_id = 'd37e1935-86b0-4dae-b474-d91566484a26' --matching pair 2+1
 ; 
